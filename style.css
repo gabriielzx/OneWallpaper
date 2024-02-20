@@ -1,0 +1,283 @@
+* {
+    margin: 9;
+    padding: 9;
+    box-sizing: border-box;
+}
+html {
+    width: 100%;
+    height: 100%;
+    padding: 0 20px 20px 20px;
+}
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #0d0c0f;
+    text-align: center;
+}
+img {
+    display:block;
+    margin: 0 auto;
+    width: 600px;
+    padding: 0 20px 20px 20px;
+    transition: transform 0.3s ease;
+}
+img:hover {
+    transform: scale(1.1); /* Aumenta a escala da imagem ao passar o mouse sobre ela */
+  }
+h3 {
+    margin: 0;
+    color: rgb(107, 23, 185);
+    text-shadow: 2px 2px black;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 25 20px 20px 20px;
+}
+h1 {
+    margin: 0;
+    color: rgb(107, 23, 185);
+    text-shadow: 2px 2px black;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h4 {
+    margin: 0;
+    color: rgb(107, 23, 185);
+    text-shadow: 2px 2px black;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0 20px 20px 20px;
+}
+p {
+    margin: 0;
+    color: rgb(107, 23, 185);
+    text-shadow: 2px 2px black;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0 20px 20px 20px;
+}
+input {
+    width: 160px;
+    height: 20px;
+}
+.texto-oculto {
+  margin: 0;
+  position: absolute;
+  text-decoration: solid;
+  text-shadow: 2px 2px black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  width: 50%;
+  height: 7%;
+  top: 45%;
+  left: 17%;
+  transform: translate(-50%, -50%);
+  opacity: 0; /* Torna o texto oculto */
+  color: rgb(138, 4, 195); /* Cor do texto, ajuste conforme necessário */
+  font-size: 25px; /* Tamanho da fonte, ajuste conforme necessário */
+}
+.containe:hover .texto-oculto {
+  opacity: 1;
+}
+.texto-oculto1 {
+  margin: 0;
+  position: absolute;
+  text-decoration: solid;
+  text-shadow: 2px 2px black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  width: 50%;
+  height: 7%;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0; /* Torna o texto oculto */
+  color: rgb(138, 4, 195); /* Cor do texto, ajuste conforme necessário */
+  font-size: 25px; /* Tamanho da fonte, ajuste conforme necessário */
+}
+.containe1:hover .texto-oculto1 {
+  opacity: 1;
+}
+.texto-oculto2 {
+  margin: 0;
+  position: absolute;
+  text-decoration: solid;
+  text-shadow: 2px 2px black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  width: 50%;
+  height: 7%;
+  top: 45%;
+  left: 83%;
+  transform: translate(-50%, -50%);
+  opacity: 0; /* Torna o texto oculto */
+  color: rgb(138, 4, 195); /* Cor do texto, ajuste conforme necessário */
+  font-size: 25px; /* Tamanho da fonte, ajuste conforme necessário */
+}
+.containe2:hover .texto-oculto2 {
+  opacity: 1;
+}
+.texto-oculto3 {
+  margin: 0;
+  position: absolute;
+  text-decoration: solid;
+  text-shadow: 2px 2px black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  width: 50%;
+  height: 7%;
+  top: 84%;
+  left: 17%;
+  transform: translate(-50%, -50%);
+  opacity: 0; /* Torna o texto oculto */
+  color: rgb(138, 4, 195); /* Cor do texto, ajuste conforme necessário */
+  font-size: 25px; /* Tamanho da fonte, ajuste conforme necessário */
+}
+.containe3:hover .texto-oculto3 {
+  opacity: 1;
+}
+.texto-oculto4 {
+  margin: 0;
+  position: absolute;
+  text-decoration: solid;
+  text-shadow: 2px 2px black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  width: 50%;
+  height: 7%;
+  top: 84%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0; /* Torna o texto oculto */
+  color: rgb(138, 4, 195); /* Cor do texto, ajuste conforme necessário */
+  font-size: 25px; /* Tamanho da fonte, ajuste conforme necessário */
+}
+.containe4:hover .texto-oculto4 {
+  opacity: 1;
+}
+.texto-oculto5 {
+  margin: 0;
+  position: absolute;
+  text-decoration: solid;
+  text-shadow: 2px 2px black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  width: 50%;
+  height: 7%;
+  top: 84%;
+  left: 83%;
+  transform: translate(-50%, -50%);
+  opacity: 0; /* Torna o texto oculto */
+  color: rgb(138, 4, 195); /* Cor do texto, ajuste conforme necessário */
+  font-size: 25px; /* Tamanho da fonte, ajuste conforme necessário */
+}
+.containe5:hover .texto-oculto5 {
+  opacity: 1;
+}
+.texto-oculto6 {
+  margin: 0;
+  position: absolute;
+  text-decoration: solid;
+  text-shadow: 2px 2px black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  width: 50%;
+  height: 7%;
+  top: 123%;
+  left: 17%;
+  transform: translate(-50%, -50%);
+  opacity: 0; /* Torna o texto oculto */
+  color: rgb(138, 4, 195); /* Cor do texto, ajuste conforme necessário */
+  font-size: 25px; /* Tamanho da fonte, ajuste conforme necessário */
+}
+.containe6:hover .texto-oculto6 {
+  opacity: 1;
+}
+.texto-oculto7 {
+  margin: 0;
+  position: absolute;
+  text-decoration: solid;
+  text-shadow: 2px 2px black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  width: 50%;
+  height: 7%;
+  top: 123%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0; /* Torna o texto oculto */
+  color: rgb(138, 4, 195); /* Cor do texto, ajuste conforme necessário */
+  font-size: 25px; /* Tamanho da fonte, ajuste conforme necessário */
+}
+.containe7:hover .texto-oculto7 {
+  opacity: 1;
+}
+.texto-oculto8 {
+  margin: 0;
+  position: absolute;
+  text-decoration: solid;
+  text-shadow: 2px 2px black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  width: 50%;
+  height: 7%;
+  top: 123%;
+  left: 83%;
+  transform: translate(-50%, -50%);
+  opacity: 0; /* Torna o texto oculto */
+  color: rgb(138, 4, 195); /* Cor do texto, ajuste conforme necessário */
+  font-size: 25px; /* Tamanho da fonte, ajuste conforme necessário */
+}
+.containe8:hover .texto-oculto8 {
+  opacity: 1;
+}
+
+/* link img*/
+.footer-col .social-links a {
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: rgb(107, 23, 185);
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: rgb(107, 23, 185);
+}
+@media(max-width: 767px){
+    .footer-col{
+      width: 50%;
+      margin-bottom: 30px;
+  }
+  }
+  @media(max-width: 574px){
+    .footer-col{
+      width: 100%;
+  }
+  }
+  /* caixa de pesquisa*/
+  .input-wrapper i {
+    color: rgb(107, 23, 185);
+    cursor: pointer;
+  }
+  .container {
+    background-color: rgb(44, 39, 39);
+    border-radius: 20px;
+  }
+  .input-wrapper {
+    
+   padding: 10px 15px;
+   display:block;
+   gap: 6px;
+   background-color: rgb(44, 39, 39);
+   border-radius: 16px;
+  }
+  .container-wrapper {
+   display: flex;
+   margin-top: 10px;
+   position: absolute;
+  }
+  .input-wrapper input {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+  }
+  .input-wrapper input:focus-visible {
+    outline: none;
+}

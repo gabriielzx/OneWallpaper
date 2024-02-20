@@ -1,2 +1,2 @@
-# OneWallpaper
-Site de Wallpapers de Anime.
+# Onewallpaper
+Site de wallpaper de Animes.

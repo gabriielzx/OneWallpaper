@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="novo1.css">
+    <title>One.Wallpaper</title>
+</head>
+<body>
+
+     <h1> Luffy Animado</h1>
+     <img src="cropped-1366-768-1327390.png">
+     <a id="botaoDownload" href="Imagens/cropped-1366-768-1327390.png" download="Luffy Animado">Download da Imagem</a>
+
+     <script>
+        function mostrarPopUp() {
+            var resposta = confirm("Você deseja baixar o arquivo?");
+    
+            if (resposta) {
+                // Sim, o usuário clicou em "OK", então realizamos a ação de download
+                realizarDownload();
+            } else {
+                // Não, o usuário clicou em "Cancelar", então não fazemos nada
+            }
+        }
+    
+        function realizarDownload() {
+            // Simulação da ação de download
+            alert("Arquivo baixado com sucesso!");
+            // Aqui você pode adicionar a lógica real para iniciar o download
+            // Pode ser algo como window.location.href = "caminho/do/arquivo.zip";
+        }
+    
+        // Vincular a função ao clique do botão
+        document.getElementById("botaoDownload").addEventListener("click", mostrarPopUp);
+    </script>
+
+</body>
+</html>
